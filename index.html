@@ -296,6 +296,37 @@
                 align-items: center;
             }
         }
+
+        #estudios {
+            padding: 5rem 0;
+            background: #f8f9fa;
+            text-align: center;
+        }
+
+        .education-content {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .education-item {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .education-item h3 {
+            color: #667eea;
+            margin-bottom: 0.5rem;
+        }
+
+        .education-item p {
+            color: #333;
+            font-size: 1rem;
+        }
     </style>
 </head>
 <body>
@@ -414,12 +445,12 @@
                 <div class="project-card">
                     <img src="https://images.unsplash.com/photo-1551808525-51a94da548ce?w=400&h=200&fit=crop&auto=format" alt="Datacenter Infrastructure" class="project-image">
                     <div class="project-header">
-                        <h3>Datacenter Transporte Andreu</h3>
+                        <h3>Datacenter Transporte Internacional</h3>
                         <p>Diseño de red y conectividad empresarial</p>
                     </div>
                     <div class="project-content">
                         <p><strong>Desafío:</strong> Infraestructura crítica para operaciones logísticas 24/7</p>
-                        <p><strong>Solución:</strong> Arquitectura redundante, VLANs segmentadas, disaster recovery</p>
+                        <p><strong>Solución:</strong> Arquitectura redundante,Red de campus, VLANs segmentadas, disaster recovery</p>
                         <p><strong>Resultado:</strong> Zero downtime en operaciones críticas</p>
                         <div style="margin-top: auto; padding-top: 1rem;">
                             <span class="project-tag">VLAN Design</span>
@@ -452,11 +483,11 @@
                 <div class="project-card">
                     <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&h=200&fit=crop&auto=format" alt="Server Migration" class="project-image">
                     <div class="project-header">
-                        <h3>Migración Datacenter Mailexpress</h3>
+                        <h3>Migración Datacenter Empresa de logistica Internacional</h3>
                         <p>Migración completa sin interrupciones</p>
                     </div>
                     <div class="project-content">
-                        <p><strong>Desafío:</strong> Migrar datacenter sin interrumpir servicios críticos de email</p>
+                        <p><strong>Desafío:</strong> Migrar datacenter sin interrumpir servicios críticos </p>
                         <p><strong>Solución:</strong> Migración por fases, conectividad híbrida, testing procedures</p>
                         <p><strong>Resultado:</strong> Migración exitosa, zero data loss, downtime mínimo</p>
                         <div style="margin-top: auto; padding-top: 1rem;">
@@ -467,25 +498,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="project-card">
-                    <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&h=200&fit=crop&auto=format" alt="Server Migration" class="project-image">
-                    <div class="project-header">
-                        <h3>Migración Datacenter Mailexpress</h3>
-                        <p>Migración completa sin interrupciones</p>
-                    </div>
-                    <div class="project-content">
-                        <p><strong>Desafío:</strong> Migrar datacenter sin interrumpir servicios críticos de email</p>
-                        <p><strong>Solución:</strong> Migración por fases, conectividad híbrida, testing procedures</p>
-                        <p><strong>Resultado:</strong> Migración exitosa, zero data loss, downtime mínimo</p>
-                        <div style="margin-top: auto; padding-top: 1rem;">
-                            <span class="project-tag">Conectividad</span>
-                            <span class="project-tag">Satelital</span>
-                            <span class="project-tag">WIFI</span>
-                            <span class="project-tag">Outdor</span>
-                        </div>
-                    </div>
-                </div>
-
+                
                 <div class="project-card">
                     <img src="starlink.jpg" alt="Server Migration" class="project-image">
                     <div class="project-header">
@@ -599,8 +612,21 @@
             </div>
         </div>
     </section>
-
-    
+    <section id="estudios">
+        <div class="container">
+            <h2>Estudios</h2>
+            <div class="education-content">
+                <div class="education-item">
+                    <h3>Ingeniería Electrónica (Incompleto)</h3>
+                    <p>Universidad Tecnológica Nacional (UTN)</p>
+                </div>
+                <div class="education-item">
+                    <h3>Tecnicatura en Redes y Telecomunicaciones</h3>
+                    <p>Instituto Tecnológico Universitario (ITU)</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <footer>
         <div class="container">
